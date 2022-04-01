@@ -1,0 +1,41 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=8\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "pref": "None/None@oppen/testing:9f9cdfe6436ff23a241808f41d9ee04637b0fec6",
+    "options": "ceres-solver:fPIC=True\nceres-solver:shared=False\nceres-solver:use_CXX11=False\nceres-solver:use_CXX11_threads=False\nceres-solver:use_TBB=False\nceres-solver:use_custom_blas=True\nceres-solver:use_eigen_sparse=True\nceres-solver:use_gflags=True\nceres-solver:use_glog=True\nceres-solver:use_schur_specializations=True\ngflags:fPIC=True\ngflags:namespace=gflags\ngflags:nothreads=True\ngflags:shared=False\nglog:fPIC=True\nglog:shared=False\nglog:with_gflags=True\nglog:with_threads=True",
+    "requires": [
+     "1"
+    ],
+    "path": "/home/chubei/conan-recipes/ceres-solver/test_package/conanfile.py"
+   },
+   "1": {
+    "pref": "ceres-solver/1.14.0@oppen/testing#fa4bdeffc0262a6feff5eafd36653456:044f2fb7e0460036bdc3f7ccd656659a72546bdc#6c4f9b0e92c3eeee4c27e0935762db0c",
+    "options": "fPIC=True\nshared=False\nuse_CXX11=False\nuse_CXX11_threads=False\nuse_TBB=False\nuse_custom_blas=True\nuse_eigen_sparse=True\nuse_gflags=True\nuse_glog=True\nuse_schur_specializations=True\ngflags:fPIC=True\ngflags:namespace=gflags\ngflags:nothreads=True\ngflags:shared=False\nglog:fPIC=True\nglog:shared=False\nglog:with_gflags=True\nglog:with_threads=True",
+    "modified": "built",
+    "requires": [
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "2": {
+    "pref": "eigen/3.2.10@oppen/testing#0:20255e92456915b15afbdb13e39c17e00e395a72#a73e88f41e7a442ccb20f29f8e217869",
+    "options": ""
+   },
+   "3": {
+    "pref": "glog/0.4.0#0:112737db8259f4571e7503245190c7332d8673a0#0",
+    "options": "fPIC=True\nshared=False\nwith_gflags=True\nwith_threads=True\ngflags:fPIC=True\ngflags:namespace=gflags\ngflags:nothreads=True\ngflags:shared=False",
+    "requires": [
+     "4"
+    ]
+   },
+   "4": {
+    "pref": "gflags/2.2.2#0:077218d4b6d22487fa3e3f8a82206898c929a3f3#0",
+    "options": "fPIC=True\nnamespace=gflags\nnothreads=True\nshared=False"
+   }
+  }
+ },
+ "version": "0.3"
+}

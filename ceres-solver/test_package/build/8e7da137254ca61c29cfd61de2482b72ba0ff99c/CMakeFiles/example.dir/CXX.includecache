@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/c_api.h
+ceres/internal/port.h
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/ceres/internal/port.h
+ceres/internal/disable_warnings.h
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/ceres/internal/disable_warnings.h
+ceres/internal/reenable_warnings.h
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/ceres/internal/reenable_warnings.h
+
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/internal/config.h
+
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/internal/disable_warnings.h
+
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/internal/port.h
+cstddef
+-
+ceres/internal/config.h
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/internal/ceres/internal/config.h
+tr1/memory
+-
+memory
+-
+
+/home/chubei/.conan/data/ceres-solver/1.14.0/oppen/testing/package/044f2fb7e0460036bdc3f7ccd656659a72546bdc/include/ceres/internal/reenable_warnings.h
+
+/home/chubei/conan-recipes/ceres-solver/test_package/example.cpp
+math.h
+-
+stdio.h
+-
+string.h
+-
+ceres/c_api.h
+/home/chubei/conan-recipes/ceres-solver/test_package/ceres/c_api.h
+
